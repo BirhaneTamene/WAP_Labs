@@ -28,5 +28,6 @@
 	<%-- <%! int count3 = count1+count2; %> --%>
 	<!-- This is an html will be copied -->
 	<%-- But not this JSP comment --%>
+	<a href='simple'>Start the simplest servlet app</a>
 </body>
 </html>

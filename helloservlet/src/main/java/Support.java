@@ -1,6 +1,5 @@
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -33,7 +32,7 @@ public class Support extends HttpServlet {
 
         ServletContext context = this.getServletContext();
         String contextInit = context.getInitParameter("support-email");
-        String ticket = "CSTech"+ Double.toString(Math.random());
+        String ticket = "CSTECH"+ Double.toString(Math.random());
 
         PrintWriter out = resp.getWriter();
         out.print("<html><head><title>CS-tech support</title>");
